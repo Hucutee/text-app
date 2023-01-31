@@ -4,6 +4,13 @@ import styles from "../styles/Home.module.css";
 import Image from "next/image";
 import MenuIcon from "@mui/icons-material/Menu";
 import { style } from "@mui/system";
+import coco from "../pages/images/coco.png";
+import shirts from "../pages/images/shirts.jpg";
+import search from "../pages/images/search.png";
+import Vector from "../pages/images/Vector.png";
+import conchim from "../pages/images/conchim.png";
+import conech from "../pages/images/conech.png";
+import mayanh from "../pages/images/mayanh.png";
 
 export default function Layout({ description, children }) {
   return (
@@ -15,7 +22,7 @@ export default function Layout({ description, children }) {
      
       <div className={styles.header}>
         <div className={styles.imageheader}>
-          <Image src="/images/coco logo 1.png" width={97} height={36}></Image>
+          <Image src={coco} width={97} height={36}></Image>
         </div>
         <div className={styles.menuheader}>
           <div className={styles.li_header}>Marketplace</div>
@@ -30,7 +37,7 @@ export default function Layout({ description, children }) {
               />
               <Image
                 className={styles.search}
-                src="/images/Vector (1).png"
+                src={search}
                 width={20}
                 height={20}
               ></Image>
@@ -40,14 +47,14 @@ export default function Layout({ description, children }) {
 
           <div className={styles.li_header}>
             <Image
-              src="/images/shirts.jpg"
+              src={shirts}
               width={31}
               height={31}
               className={styles.menuavatar}
             ></Image>
           </div>
           <div className={styles.li_header}>
-            <Image src="/images/Vector.png" width={29} height={24}></Image>
+            <Image src={Vector} width={29} height={24}></Image>
           </div>
         </div>
         <div className={styles.menuicon}>
@@ -65,7 +72,7 @@ export default function Layout({ description, children }) {
          <div className={styles.footer1_1}>
             <div className={styles.footer_title_coco}>
               <Image
-                src="/images/coco logo 1.png"
+                src={coco}
                 width={113}
                 height={42}
               ></Image>
@@ -77,16 +84,16 @@ export default function Layout({ description, children }) {
             </p>
             <div className={styles.baicon} >
                 <div style={{width:"36px", height:"36px" , background: "#55ACEE" , borderRadius:"50%" ,display:"flex" , float: "left", alignItems:"center", justifyContent:"center" , marginRight:"14px"}}>           
-                 <Image src="/images/Vector (3).png" width={21} height={17}></Image>
+                 <Image src={conchim} width={21} height={17}></Image>
 </div>
               
                 <Image
-                src="/images/3532815 1.png"
+                src={conech}
                 width={36}
                 height={36} style={{marginRight:"14px"}}
               ></Image>
                <Image
-                src="/images/2080304 1.png"
+                src={mayanh}
                 width={36}
                 height={36}
               ></Image>

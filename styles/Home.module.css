@@ -41,7 +41,7 @@
     right: 83.19%;
     top: 40%;
     bottom: 40%;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -57,9 +57,9 @@
     right: 83.19%;
     top: 40%;
     bottom: 40%;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     /* identical to box height, or 114% */
@@ -70,7 +70,11 @@
   }
   .menucreate {
     width: 86px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
     height: 36px;
+    font-size: 12px;
     background: linear-gradient(114.51deg, #6bcb07 -12.5%, #06bfc9 94.9%);
     border-radius: 50px;
     display: flex;
@@ -90,12 +94,13 @@
     height: 44px;
     background: #ffffff;
     /* Soft Grey */
-
+    font-family: 'Lato', sans-serif;
     border: 2px solid #ededed;
     border-radius: 50px;
   }
   .menuinput[type="text"] {
-    padding-left: 60px;
+    padding-left: 60px;font-family: 'Lato', sans-serif;
+
   }
   .search {
     position: absolute;
@@ -121,8 +126,7 @@
   .group238 {
     width: 1080px;
     height: 122px;
-    font-family: "Oswald";
-    font-style: normal;
+    font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 122px;
     display: flex;
@@ -139,7 +143,7 @@
   }
   .abinance {
     height: 30px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -157,33 +161,32 @@
   }
   .homebentrai {
     width: 540px;
-    position: relative;
     height: 480px;
   }
   .anhcham {
+    position:  relative;
+  }
+  .imagecham {
     position: absolute;
-    bottom: 30px;
-    right: 40px;
-    z-index: 1;
+    z-index: 2;top: 20px;right: 40px;
   }
   .divcham {
     position: absolute;
-    bottom: 0px;
-    left: 40px;
-    z-index: 0;
+    top:290px;
+    left: 60px;
+    z-index: 0; width:260px; height:150px;
   }
   .cham {
     margin-right: 26px;
     margin-bottom: 16px;
   }
   .home3 {
-    display: flex;
-    margin-left: 16px;
+    display: flex; gap: 28px;
   }
   .home3 div {
   }
   .home3 div a {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -206,13 +209,11 @@
     background: #ededed;
     display: flex;
     align-items: center;
-    margin-right: 30px;
   }
   .home3_2 div {
     margin-top: 6px;
     height: 24px;
     border-radius: 10.9432px;
-    margin-right: 30px;
     background: #ffffff;
     display: flex;
     align-items: center;
@@ -228,13 +229,11 @@
     align-items: center;
   }
   .home4 {
-    margin-left: 16px;
 
-    width: 442px;
     height: 60px;
     margin-top: 24px;
     margin-bottom: 24px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 50px;
@@ -244,7 +243,6 @@
     color: #000000;
   }
   .homee4 {
-    margin-left: 16px;
 
     display: flex;
     align-items: center;
@@ -256,7 +254,7 @@
   }
   .home4_1_1 {
     height: 19px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -266,7 +264,7 @@
   }
   .home4_1_2 {
     height: 34px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 28px;
@@ -276,7 +274,7 @@
   }
   .home4_1_3 {
     height: 19px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -289,7 +287,7 @@
   .home4_2_1 {
     height: 19px;
     margin-bottom: 6px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -298,7 +296,7 @@
   }
   .home4_2_2 {
     height: 39.18px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -309,7 +307,7 @@
     width: 13.93px;
     height: 21.77px;
     margin-right: 10px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -318,7 +316,6 @@
     /* Black */
   }
   .home5 {
-    margin-left: 16px;
 
     display: flex;
     flex-direction: row;
@@ -335,9 +332,8 @@
     border-radius: 50px;
   }
   .home5_1 {
-    width: 79px;
     height: 24px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -365,7 +361,7 @@
     justify-content: space-between;
   }
   .footer_title_coco {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -378,7 +374,7 @@
     margin-top: 28px;
   }
   .footer_title {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -396,14 +392,14 @@
     margin-right: 105px;
   }
   .footer1_3 {
-    width: 100px;
+    width: 110px;
     margin-right: 105px;
   }
   .footer1_4 {
     width: 364px;
   }
   .footer_text1 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -411,7 +407,7 @@
     color: #565656;
   }
   .footer_text2 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -419,7 +415,7 @@
     color: #6a6a6a;
   }
   .footer_text3 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -427,7 +423,7 @@
     color: #6a6a6a;
   }
   .footer_text4 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -437,7 +433,7 @@
   .footer_input {
     position: relative;
     margin-top: 57px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12.1587px;
@@ -470,7 +466,7 @@
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12.1587px;
@@ -492,7 +488,7 @@
     justify-content: space-between;
   }
   .footer2_text {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -515,7 +511,7 @@
     align-items: center;
   }
   .hot {
-    font-family: "Oswald";
+    font-family:;
     font-style: normal;
     font-weight: 500;
     font-size: 137.705px;
@@ -528,7 +524,7 @@
     text-fill-color: transparent;
   }
   .drops {
-    font-family: "Oswald";
+    font-family:;
     font-style: normal;
     font-weight: 500;
     font-size: 76.9529px;
@@ -558,7 +554,7 @@
     height: 240px;
   }
   .cartname {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -567,7 +563,7 @@
     margin-top: 11px;
   }
   .cartname1 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -581,7 +577,7 @@
     margin-top: 10px;
   }
   .bnb1 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -603,7 +599,7 @@
     height: 36px;
     background: #f5f5f5;
     border-radius: 109.706px;
-    font-family: "DM Sans";
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 10.9706px;
@@ -621,7 +617,7 @@
     height: 36px;
     background: linear-gradient(114.51deg, #6bcb07 -12.5%, #06bfc9 94.9%);
     border-radius: 30px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -653,7 +649,7 @@
   }
   .discovertext {
     margin-right: 10px;
-    font-family: "Oswald";
+    font-family:;
     font-style: normal;
     font-weight: 300;
     font-size: 100px;
@@ -663,7 +659,7 @@
     color: #ffffff;
   }
   .moretext {
-    font-family: "Oswald";
+    font-family:;
     font-style: normal;
     font-weight: 500;
     font-size: 100px;
@@ -702,7 +698,7 @@
     background: #ffffff;
     border-radius: 50px;
 
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -737,7 +733,7 @@
     height: 38px;
     background: #6bcb07;
     border-radius: 100px;
-    font-family: "DM Sans";
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -755,7 +751,7 @@
     height: 38px;
     background: #ffffff;
     border-radius: 100px;
-    font-family: "DM Sans";
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -775,12 +771,11 @@
     margin-left: 8px;
     height: 38px;
     border-radius: 100px;
-    font-family: "DM Sans";
+font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    font-family: "DM Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -808,7 +803,7 @@
     right: 0px;
   }
   .conchuottext1 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -818,7 +813,7 @@
     color: #000000;
   }
   .conchuottext2 {
-    font-family: "DM Sans";
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -837,7 +832,7 @@
     gap: 10px;
     background: #003935;
     border-radius: 50px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -862,7 +857,7 @@
     padding: 27px;
   }
   .top3_1 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
@@ -871,7 +866,7 @@
     color: #373737;
   }
   .top3_2 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -886,7 +881,7 @@
     border-bottom: 1px solid #ededed;
   }
   .top4_1 {
-    font-family: "DM Sans";
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -905,7 +900,7 @@
     margin-right: 20px;
   }
   .top4_3_1 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -921,7 +916,7 @@
     align-items: center;
   }
   .top4_3_2_1 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -937,7 +932,7 @@
   .top4_4 {
     position: absolute;
     right: 0px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -950,7 +945,7 @@
     color: #6bcb07;
   }
   .top4_4_4 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -1003,7 +998,7 @@
   .group238 {
     margin-top: 106px;
     height: 73px;
-    font-family: "Oswald";
+    font-family:;
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -1026,7 +1021,7 @@
   .abinance {
     margin-top: 7px;
     height: 52px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1041,11 +1036,11 @@
     color: #000000;
   }
   .homebentrai {
-    position: relative;
     height: 300px;
     margin-top: 10px;
   }
   .anhcham {
+    position: relative;
     width: 255px;
     display: block;
     margin-left: auto;
@@ -1053,8 +1048,9 @@
   }
   .divcham {
     position: absolute;
-    bottom: 0px;
-    z-index: 0;
+    top:165px;
+    left: -45px;
+    z-index: 0; width:200px; height:120px;
   }
   .cham {
     margin-right: 17px;
@@ -1078,7 +1074,7 @@
   .home3 div {
   }
   .home3 div a {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -1128,7 +1124,7 @@
     height: 60px;
     margin-top: 18px;
     margin-bottom: 18px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 36px;
@@ -1149,7 +1145,7 @@
   }
   .home4_1_1 {
     height: 19px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -1159,7 +1155,7 @@
   }
   .home4_1_2 {
     height: 34px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
@@ -1169,7 +1165,8 @@
   }
   .home4_1_3 {
     height: 19px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1182,7 +1179,8 @@
   .home4_2_1 {
     height: 19px;
     margin-bottom: 6px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -1191,7 +1189,8 @@
   }
   .home4_2_2 {
     height: 39.18px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
@@ -1202,7 +1201,8 @@
     width: 13.93px;
     height: 21.77px;
     margin-right: 10px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -1229,7 +1229,8 @@
   .home5_1 {
     width: 79px;
     height: 24px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -1252,7 +1253,8 @@
     margin-left: 5%;
   }
   .footer_title_coco {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -1261,7 +1263,8 @@
     padding-bottom: 20px;
   }
   .footer_text1 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1283,7 +1286,8 @@
     clear: left;
   }
   .footer_title {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -1297,7 +1301,8 @@
     margin-top: 28px;
   }
   .footer_text2 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1305,7 +1310,8 @@
     color: #6a6a6a;
   }
   .footer_text3 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1313,7 +1319,8 @@
     color: #6a6a6a;
   }
   .footer_text4 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1333,7 +1340,8 @@
 
   .footerinput[type="text"] {
     padding-left: 26px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1351,7 +1359,8 @@
     gap: 7.6px;
     background: linear-gradient(114.51deg, #6bcb07 -12.5%, #06bfc9 94.9%);
     border-radius: 45.595px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1375,7 +1384,8 @@
     margin-top: 40px;
   }
   .footer2_text {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1395,7 +1405,7 @@
   }
   .hot {
     margin-top: 50px;
-    font-family: "Oswald";
+    font-family:;
     font-style: normal;
     font-weight: 500;
     font-size: 58.1538px;
@@ -1409,7 +1419,7 @@
     text-fill-color: transparent;
   }
   .drops {
-    font-family: "Oswald";
+    font-family:;
     margin-top: 50px;
     font-style: normal;
     font-weight: 500;
@@ -1443,7 +1453,8 @@
     height: 240px;
   }
   .cartname {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -1452,7 +1463,8 @@
     margin-top: 11px;
   }
   .cartname1 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -1466,7 +1478,8 @@
     margin-top: 10px;
   }
   .bnb1 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -1488,7 +1501,7 @@
     height: 36px;
     background: #f5f5f5;
     border-radius: 109.706px;
-    font-family: "DM Sans";
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 10.9706px;
@@ -1506,7 +1519,8 @@
     height: 36px;
     background: linear-gradient(114.51deg, #6bcb07 -12.5%, #06bfc9 94.9%);
     border-radius: 30px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -1537,7 +1551,7 @@
     justify-content: center;
   }
   .discovertext {
-    font-family: "Oswald";
+    font-family:;
     font-style: normal;
     font-weight: 300;
     font-size: 58.1538px;
@@ -1546,7 +1560,7 @@
     color: #ffffff;
   }
   .moretext {
-    font-family: "Oswald";
+    font-family:;
     font-style: normal;
     font-weight: 500;
     font-size: 58.1538px;
@@ -1584,7 +1598,8 @@
     background: #ffffff;
     border-radius: 50px;
 
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -1623,7 +1638,7 @@
     height: 38px;
     background: #6bcb07;
     border-radius: 100px;
-    font-family: "DM Sans";
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -1641,7 +1656,7 @@
     height: 38px;
     background: #ffffff;
     border-radius: 100px;
-    font-family: "DM Sans";
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -1663,12 +1678,11 @@
     margin-left: 8px;
     height: 38px;
     border-radius: 100px;
-    font-family: "DM Sans";
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    font-family: "DM Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -1694,7 +1708,8 @@
     margin-bottom: 17px;
   }
   .conchuottext1 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
@@ -1706,7 +1721,7 @@
     color: #000000;
   }
   .conchuottext2 {
-    font-family: "DM Sans";
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -1726,7 +1741,8 @@
     margin-bottom: 32px;
     background: #003935;
     border-radius: 50px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -1751,7 +1767,8 @@
     padding-right: 25px;
   }
   .top3_1 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
@@ -1760,7 +1777,8 @@
     color: #373737;
   }
   .top3_2 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -1775,7 +1793,7 @@
     border-bottom: 1px solid #ededed;
   }
   .top4_1 {
-    font-family: "DM Sans";
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -1794,7 +1812,8 @@
     margin-right: 20px;
   }
   .top4_3_1 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -1810,7 +1829,8 @@
     align-items: center;
   }
   .top4_3_2_1 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -1826,7 +1846,8 @@
   .top4_4 {
     position: absolute;
     right: 0px;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -1839,7 +1860,8 @@
     color: #6bcb07;
   }
   .top4_4_4 {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;

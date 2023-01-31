@@ -9,7 +9,19 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { styled } from "@mui/material/styles";
-
+import Dot from './images/Dot.png';
+import plus from "../pages/images/plus.png";
+import conchuot from "../pages/images/conchuot.png";
+import hinh1 from "../pages/images/hinh1.png";
+import shirts from "../pages/images/shirts.jpg";
+import gach from "../pages/images/gach.png";
+import Group255 from "../pages/images/Group255.png";
+import traitim from "../pages/images/traitim.png";
+import vecto10 from "../pages/images/vecto10.png";
+import vecto9 from "../pages/images/vecto9.png";
+import vecto8 from "../pages/images/vecto8.png";
+import cart from "../pages/images/cart.png";
+import avt from "../pages/images/avt.png";
 const StyledSlider = styled(Slider)(({ theme }) => ({
 
   ".slick-dots li.slick-active button:before": {
@@ -78,7 +90,7 @@ export default function Home() {
             <div className={styles.group238}>
               CREATE{" "}
               <Image
-                src="/images/plus.png"
+                src={plus}
                 className={styles.imageplus}
                 alt=""
                 width={66}
@@ -96,22 +108,16 @@ export default function Home() {
                 <div className={styles.anhcham} style={{}}>
                   <Image
                     className={styles.imagecham}
-                    src="/images/hinh1.png"
+                    src={hinh1}
                     alt=""
                     width={385}
                     height={424}
                   />
+                                  <Image  src={Dot} className={styles.divcham} style={{}} />
+
                 </div>
-                <div className={styles.divcham} style={{}}>
-                    <div><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/></div>
-                    <div><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/></div>
-                    <div><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/></div>
-                    <div><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/></div>
-                    <div><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/></div>
-                    <div><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/></div>
-                    <div><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/></div>
-                    <div><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/><Image className={styles.cham} src="/images/Ellipse 5.png" alt="" width={7.8} height={7.8}/></div>
-               </div>
+                    
+                
               </div>
               <div></div>
             </div>
@@ -121,7 +127,7 @@ export default function Home() {
                   <a>Creator</a>
                   <div>
                     <Image
-                      src="/images/shirts.jpg"
+                      src={shirts}
                       width={19.5}
                       height={20}
                       className={styles.home3_avt}
@@ -135,7 +141,7 @@ export default function Home() {
                   <a>Owner</a>
                   <div>
                     <Image
-                      src="/images/shirts.jpg"
+                      src={shirts}
                       width={19.5}
                       height={20}
                       className={styles.home3_avt}
@@ -149,7 +155,7 @@ export default function Home() {
                   <a>Collection</a>
                   <div>
                     <Image
-                      src="/images/shirts.jpg"
+                      src={shirts}
                       width={19.5}
                       height={20}
                       className={styles.home3_avt}
@@ -188,7 +194,7 @@ export default function Home() {
             <div>
               <div className={styles.drops}>DROPS</div>
               <div>
-                <img src="/images/gach.png" className={styles.gach} />
+                <Image src={gach} className={styles.gach} />
               </div>
             </div>
           </div>
@@ -196,46 +202,12 @@ export default function Home() {
             {data.cart3.map((aa) => (
               <div className={styles.carthotdrops1}>
                 <div>
-                  <img src={aa.image} className={styles.imagecart} />
+                  <Image src={cart} className={styles.imagecart} />
                 </div>
                 <div className={styles.cartname}>{aa.name}</div>
                 <div className={styles.cartname1}>{aa.name1}</div>
                 <div className={styles.bnb}>
-                  <div>
-                    <Image
-                      src="/images/Vector (4).png"
-                      width={12.29}
-                      height={8.41}
-                      style={{ marginLeft: "4px" }}
-                    ></Image>
-                    <div style={{ marginTop: "-15px" }}>
-                      <Image
-                        src="/images/Vector (5).png"
-                        width={4.6}
-                        height={4.6}
-                        style={{ marginRight: "3.19px" }}
-                      ></Image>
-                      <Image
-                        src="/images/Vector (5).png"
-                        width={4.6}
-                        height={4.6}
-                        style={{ marginRight: "3.19px" }}
-                      ></Image>
-                      <Image
-                        src="/images/Vector (5).png"
-                        width={4.6}
-                        height={4.6}
-                        style={{ marginRight: "3.19px" }}
-                      ></Image>
-                    </div>
-                    <div style={{ marginLeft: "4px", marginTop: "-10px" }}>
-                      <Image
-                        src="/images/Vector (6).png"
-                        width={12.29}
-                        height={8.41}
-                      ></Image>
-                    </div>
-                  </div>
+                  <Image src={Group255} />
                   <div className={styles.bnb1}>{aa.bnb} BNB</div>
                 </div>
                 <div className={styles.cuoicart}>
@@ -244,7 +216,7 @@ export default function Home() {
                   <div>
                     {" "}
                     <Image
-                      src="/images/Vector (7).png"
+                      src={traitim}
                       width={27}
                       height={24}
                       style={{ marginLeft: "23px" }}
@@ -272,7 +244,7 @@ export default function Home() {
               >
                 Last 7 days{" "}
                 <Image
-                  src="/images/Vector (10).png"
+                  src={vecto10}
                   width={9.33}
                   height={5.33}
                   style={{ marginLeft: "10px", marginTop: "9px" }}
@@ -283,10 +255,10 @@ export default function Home() {
               <div className={styles.top4}>
                 <div className={styles.top4_1}>{aa.stt}</div>
                 <div style={{ position: "relative" }} className={styles.top4_2}>
-                  <img src={aa.avt} />
+                  <Image src={avt} />
                   {aa.stt == 1 ? (
                     <Image
-                      src="/images/Vector (9).png"
+                      src={vecto9}
                       width={26.67}
                       height={26.67}
                       style={{
@@ -302,43 +274,7 @@ export default function Home() {
                 <div className={styles.top4_3}>
                   <div className={styles.top4_3_1}>{aa.ten}</div>
                   <div className={styles.top4_3_2}>
-                    <div>
-                      <div style={{ position: "relative" }}>
-                        <Image
-                          src="/images/Vector (4).png"
-                          width={12.29}
-                          height={8.41}
-                          style={{ marginLeft: "4px" }}
-                        ></Image>
-                      </div>
-                      <div style={{ marginTop: "-15px" }}>
-                        <Image
-                          src="/images/Vector (5).png"
-                          width={4.6}
-                          height={4.6}
-                          style={{ marginRight: "3.19px" }}
-                        ></Image>
-                        <Image
-                          src="/images/Vector (5).png"
-                          width={4.6}
-                          height={4.6}
-                          style={{ marginRight: "3.19px" }}
-                        ></Image>
-                        <Image
-                          src="/images/Vector (5).png"
-                          width={4.6}
-                          height={4.6}
-                          style={{ marginRight: "3.19px" }}
-                        ></Image>
-                      </div>
-                      <div style={{ marginLeft: "4px", marginTop: "-10px" }}>
-                        <Image
-                          src="/images/Vector (6).png"
-                          width={12.29}
-                          height={8.41}
-                        ></Image>
-                      </div>
-                    </div>
+                  <Image src={Group255} />
                     <div className={styles.top4_3_2_1}>{aa.tien}</div>
                   </div>
                 </div>
@@ -363,7 +299,7 @@ export default function Home() {
               >
                 Last 7 days{" "}
                 <Image
-                  src="/images/Vector (10).png"
+                  src={vecto10}
                   width={9.33}
                   height={5.33}
                   style={{ marginLeft: "10px", marginTop: "9px" }}
@@ -374,10 +310,10 @@ export default function Home() {
               <div className={styles.top4}>
                 <div className={styles.top4_1}>{aa.stt}</div>
                 <div style={{ position: "relative" }} className={styles.top4_2}>
-                  <img src={aa.avt} />
+                  <Image src={avt} />
                   {aa.stt == 1 ? (
                     <Image
-                      src="/images/Vector (9).png"
+                      src={vecto9}
                       width={26.67}
                       height={26.67}
                       style={{
@@ -393,43 +329,7 @@ export default function Home() {
                 <div className={styles.top4_3}>
                   <div className={styles.top4_3_1}>{aa.ten}</div>
                   <div className={styles.top4_3_2}>
-                    <div>
-                      <div style={{ position: "relative" }}>
-                        <Image
-                          src="/images/Vector (4).png"
-                          width={12.29}
-                          height={8.41}
-                          style={{ marginLeft: "4px" }}
-                        ></Image>
-                      </div>
-                      <div style={{ marginTop: "-15px" }}>
-                        <Image
-                          src="/images/Vector (5).png"
-                          width={4.6}
-                          height={4.6}
-                          style={{ marginRight: "3.19px" }}
-                        ></Image>
-                        <Image
-                          src="/images/Vector (5).png"
-                          width={4.6}
-                          height={4.6}
-                          style={{ marginRight: "3.19px" }}
-                        ></Image>
-                        <Image
-                          src="/images/Vector (5).png"
-                          width={4.6}
-                          height={4.6}
-                          style={{ marginRight: "3.19px" }}
-                        ></Image>
-                      </div>
-                      <div style={{ marginLeft: "4px", marginTop: "-10px" }}>
-                        <Image
-                          src="/images/Vector (6).png"
-                          width={12.29}
-                          height={8.41}
-                        ></Image>
-                      </div>
-                    </div>
+                    <Image src={Group255} />
                     <div className={styles.top4_3_2_1}>{aa.tien}</div>
                   </div>
                 </div>
@@ -454,7 +354,7 @@ export default function Home() {
               >
                 Last 7 days{" "}
                 <Image
-                  src="/images/Vector (10).png"
+                  src={vecto10}
                   width={9.33}
                   height={5.33}
                   style={{ marginLeft: "10px", marginTop: "9px" }}
@@ -465,10 +365,10 @@ export default function Home() {
               <div className={styles.top4}>
                 <div className={styles.top4_1}>{aa.stt}</div>
                 <div style={{ position: "relative" }} className={styles.top4_2}>
-                  <img src={aa.avt} />
+                  <Image src={avt} />
                   {aa.stt == 1 ? (
                     <Image
-                      src="/images/Vector (9).png"
+                      src={vecto9}
                       width={26.67}
                       height={26.67}
                       style={{
@@ -484,43 +384,7 @@ export default function Home() {
                 <div className={styles.top4_3}>
                   <div className={styles.top4_3_1}>{aa.ten}</div>
                   <div className={styles.top4_3_2}>
-                    <div>
-                      <div style={{ position: "relative" }}>
-                        <Image
-                          src="/images/Vector (4).png"
-                          width={12.29}
-                          height={8.41}
-                          style={{ marginLeft: "4px" }}
-                        ></Image>
-                      </div>
-                      <div style={{ marginTop: "-15px" }}>
-                        <Image
-                          src="/images/Vector (5).png"
-                          width={4.6}
-                          height={4.6}
-                          style={{ marginRight: "3.19px" }}
-                        ></Image>
-                        <Image
-                          src="/images/Vector (5).png"
-                          width={4.6}
-                          height={4.6}
-                          style={{ marginRight: "3.19px" }}
-                        ></Image>
-                        <Image
-                          src="/images/Vector (5).png"
-                          width={4.6}
-                          height={4.6}
-                          style={{ marginRight: "3.19px" }}
-                        ></Image>
-                      </div>
-                      <div style={{ marginLeft: "4px", marginTop: "-10px" }}>
-                        <Image
-                          src="/images/Vector (6).png"
-                          width={12.29}
-                          height={8.41}
-                        ></Image>
-                      </div>
-                    </div>
+                  <Image src={Group255} />
                     <div className={styles.top4_3_2_1}>{aa.tien}</div>
                   </div>
                 </div>
@@ -542,7 +406,7 @@ export default function Home() {
               <div>
                 <div className={styles.moretext}>MORE</div>
                 <div>
-                  <img src="/images/gach.png" className={styles.gachdiscover} />
+                  <Image src={gach} className={styles.gachdiscover} />
                 </div>
               </div>
             </div>
@@ -562,7 +426,7 @@ export default function Home() {
             <div className={styles.filter}>
               <div>
                 <Image
-                  src="/images/Vector (8).png"
+                  src={vecto8}
                   width={24}
                   height={16}
                   style={{ marginRight: "10px" }}
@@ -575,46 +439,12 @@ export default function Home() {
             {data.cart12.map((aa) => (
               <div className={styles.carthotdrops1_1}>
                 <div>
-                  <img src={aa.image} className={styles.imagecart} />
+                  <Image src={cart} className={styles.imagecart} />
                 </div>
                 <div className={styles.cartname}>{aa.name}</div>
                 <div className={styles.cartname1}>{aa.name1}</div>
                 <div className={styles.bnb}>
-                  <div>
-                    <Image
-                      src="/images/Vector (4).png"
-                      width={12.29}
-                      height={8.41}
-                      style={{ marginLeft: "4px" }}
-                    ></Image>
-                    <div style={{ marginTop: "-15px" }}>
-                      <Image
-                        src="/images/Vector (5).png"
-                        width={4.6}
-                        height={4.6}
-                        style={{ marginRight: "3.19px" }}
-                      ></Image>
-                      <Image
-                        src="/images/Vector (5).png"
-                        width={4.6}
-                        height={4.6}
-                        style={{ marginRight: "3.19px" }}
-                      ></Image>
-                      <Image
-                        src="/images/Vector (5).png"
-                        width={4.6}
-                        height={4.6}
-                        style={{ marginRight: "3.19px" }}
-                      ></Image>
-                    </div>
-                    <div style={{ marginLeft: "4px", marginTop: "-10px" }}>
-                      <Image
-                        src="/images/Vector (6).png"
-                        width={12.29}
-                        height={8.41}
-                      ></Image>
-                    </div>
-                  </div>
+                  <Image src={Group255}/>
                   <div className={styles.bnb1}>{aa.bnb} BNB</div>
                 </div>
                 <div className={styles.cuoicart}>
@@ -623,7 +453,7 @@ export default function Home() {
                   <div>
                     {" "}
                     <Image
-                      src="/images/Vector (7).png"
+                      src={traitim}
                       width={27}
                       height={24}
                       style={{ marginLeft: "23px" }}
@@ -654,7 +484,7 @@ export default function Home() {
           </div>
           <div className={styles.conchuotbutton}>Start Learning</div>
 
-          <img src="/images/conchuot.png" className={styles.imgconchuot} />
+          <Image src={conchuot} className={styles.imgconchuot} />
         </div>
       </div>
    
