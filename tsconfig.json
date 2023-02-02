@@ -19,6 +19,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Layout.js", "components/Home/HotDrops.aa", "components/Home/HotDrops.js", "components/Home/Discover.js", "components/Home/Create.js"],
   "exclude": ["node_modules"]
 }

@@ -67,7 +67,7 @@ const data = {
             description: ' A popular shirts', 
             quantity: 10
          }, {
-            stt: 3,
+            id: 3,
 
             name: 'Name of Collectible',
             name1: 'Name of Collectible',

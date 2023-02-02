@@ -112,34 +112,24 @@
   .bogyhome {
     height: 848px;
     min-width: 1200px;
-    display: flex;
+    display: flex; 
     justify-content: center; /* chieu doc*/
     align-items: center; /* chieu cao*/
   }
   .bogyhome1 {
     display: flex;
     justify-content: center; /* chieu doc*/
-    align-items: center; /* chieu cao*/
     height: 480px;
     width: 1080px;
+    margin-top:70px;
   }
   .group238 {
     width: 1080px;
     height: 122px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    font-size: 122px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.06em;
-
-    /* Linear */
-    background: linear-gradient(114.51deg, #6bcb07 -12.5%, #06bfc9 94.9%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+  }
+  .group238_1 {
+    width: 1080px;
+    height: 122px;
   }
   .abinance {
     height: 30px;
@@ -157,23 +147,25 @@
   }
   .haibenhome {
     width: 540px;
-    margin-top: 30px;
   }
   .homebentrai {
     width: 540px;
-    height: 480px;
+    height: 460px;
+  }
+  .lehomephai{
+    margin-top:40px;padding-left: 10px;
   }
   .anhcham {
     position:  relative;
   }
-  .imagecham {
+  .imagecham {  width:440px;height:500px;
     position: absolute;
-    z-index: 2;top: 20px;right: 40px;
+    z-index: 2;top: -30px;right: 0px;
   }
   .divcham {
     position: absolute;
-    top:290px;
-    left: 60px;
+    top:310px;
+    left: 45px;
     z-index: 0; width:260px; height:150px;
   }
   .cham {
@@ -235,7 +227,7 @@
     margin-bottom: 24px;
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 50px;
     line-height: 60px;
     /* identical to box height */
@@ -266,7 +258,7 @@
     height: 34px;
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 28px;
     line-height: 34px;
     margin-bottom: 6px;
@@ -533,19 +525,21 @@
     margin-top: -20px;
   }
   .gach {
-    width: 184px;
-    height: 43px;
+    width: 191px;
+    height: 286px;
     margin-top: -10px;
   }
+  .gach1 {
+    display: none;
+  }
   .carthotdrops {
-    display: flex;
+    display: flex; gap:24px;
   }
   .carthotdrops1 {
     background: #ffffff;
     border-radius: 12px;
     width: 280px;
     height: 400px;
-    margin-left: 24px;
     padding: 12px;
   }
   .imagecart {
@@ -579,7 +573,7 @@
   .bnb1 {
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 16px;
     line-height: 15px;
 
@@ -644,8 +638,12 @@
   }
   .discover2 {
     display: flex;
-    width: 1200px;
-    justify-content: center;
+    width: 1200px;height:156px;
+    justify-content: center; position: relative;
+  }
+  .discovermore{
+    width: 572px;
+    height:159px;
   }
   .discovertext {
     margin-right: 10px;
@@ -672,9 +670,9 @@
     text-fill-color: transparent;
   }
   .gachdiscover {
-    width: 212px;
+    width: 212px; position: absolute;
     height: 50px;
-    margin-top: -40px;
+    bottom:0px; 
   }
   .cart20 {
     clear: left;
@@ -801,6 +799,15 @@ font-family: 'DM Sans', sans-serif;
     position: absolute;
     top: -100px;
     right: 0px;
+    width: 665px;
+    height:632px;
+  }
+  .imgellip {
+    position: absolute;
+    width: 487px;
+    height:79px;
+    top: 420px;
+    right: 20px; 
   }
   .conchuottext1 {
     font-family: 'Lato', sans-serif;
@@ -980,14 +987,14 @@ font-family: 'DM Sans', sans-serif;
 /* Mobile */
 @media (max-width: 500px) {
   .menuheader {
-    height: 11vh;
+    height: 80px;
     display: none;
     align-items: center;
     margin-right: 32px;
     justify-content: space-between;
   }
   .menuicon {
-    height: 11vh;
+    height: 80px;
     display: flex;
     float: right;
     align-items: center;
@@ -996,30 +1003,22 @@ font-family: 'DM Sans', sans-serif;
   }
 
   .group238 {
-    margin-top: 106px;
-    height: 73px;
-    font-family:;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 79px;
     display: flex;
-    align-items: center;
-    text-align: center;
     justify-content: center;
-    letter-spacing: -0.06em;
-    background: linear-gradient(114.51deg, #6bcb07 -12.5%, #06bfc9 94.9%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+    margin-top: 116px;
+    height: 73px;
+
+  }
+  .group238_1 {
+    width:660px;
+    height:53px;
   }
   .imageplus {
     width: 29px;
     height: 29px;
   }
   .abinance {
-    margin-top: 7px;
+    margin-top: 0px;
     height: 52px;
     font-family: 'Lato', sans-serif;
     font-style: normal;
@@ -1036,19 +1035,18 @@ font-family: 'DM Sans', sans-serif;
     color: #000000;
   }
   .homebentrai {
-    height: 300px;
-    margin-top: 10px;
+    height: 307px;
+    display: flex;
+    justify-content: center;margin-top: 22px;
   }
   .anhcham {
     position: relative;
-    width: 255px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 256.86px;width:281.45px; 
+  
   }
   .divcham {
     position: absolute;
-    top:165px;
+    bottom: 0px;
     left: -45px;
     z-index: 0; width:200px; height:120px;
   }
@@ -1059,17 +1057,14 @@ font-family: 'DM Sans', sans-serif;
     height: 5px;
   }
   .imagecham {
-    width: 255px;
+    width: 297px;
     position: absolute;
-    z-index: 1;
-
-    height: 281px;
+    z-index: 1; top: -20px; left: 0px;
+    height: 330px;
   }
   .home3 {
     display: flex;
-    margin-left: 25px;
-    margin-top: 10px;
-    margin-right: ;
+    gap: 12px;
   }
   .home3 div {
   }
@@ -1097,13 +1092,11 @@ font-family: 'DM Sans', sans-serif;
     background: #ededed;
     display: flex;
     align-items: center;
-    margin-right: 12px;
   }
   .home3_2 div {
     margin-top: 6px;
     height: 24px;
     border-radius: 10.9432px;
-    margin-right: 12px;
     background: #ffffff;
     display: flex;
     align-items: center;
@@ -1118,15 +1111,18 @@ font-family: 'DM Sans', sans-serif;
     display: flex;
     align-items: center;
   }
+  .lehomephai {
+    margin-top: 22px;
+    margin-left:22px;
+  }
   .home4 {
-    margin-left: 22px;
     width: 442px;
     height: 60px;
     margin-top: 18px;
     margin-bottom: 18px;
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 36px;
     line-height: 60px;
     /* identical to box height */
@@ -1134,7 +1130,6 @@ font-family: 'DM Sans', sans-serif;
     color: #000000;
   }
   .homee4 {
-    margin-left: 22px;
     display: flex;
     align-items: center;
     height: 82px;
@@ -1157,7 +1152,7 @@ font-family: 'DM Sans', sans-serif;
     height: 34px;
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 24px;
     line-height: 34px;
     margin-bottom: 6px;
@@ -1211,7 +1206,6 @@ font-family: 'DM Sans', sans-serif;
     /* Black */
   }
   .home5 {
-    margin-left: 22px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1429,9 +1423,12 @@ font-family: 'DM Sans', sans-serif;
     color: #ffffff;
   }
   .gach {
-    width: 135px;
-    height: 19px;
-    margin-top: -10px;
+    display: none;
+  }
+  .gach1 {
+    width: 226px;
+    height: 89px;
+    margin-top: 42px;
   }
   .carthotdrops {
     clear: left;
@@ -1481,7 +1478,7 @@ font-family: 'DM Sans', sans-serif;
     font-family: 'Lato', sans-serif;
 ;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 16px;
     line-height: 15px;
 
@@ -1549,6 +1546,10 @@ font-family: 'DM Sans', sans-serif;
     display: flex;
     width: 1200px;
     justify-content: center;
+  }
+  .discovermore{
+    width: 323px;
+    height:88px;
   }
   .discovertext {
     font-family:;
@@ -1700,12 +1701,19 @@ font-family: 'DM Sans', sans-serif;
     margin-right: 25px;
   }
   .conchuottext {
+    position: relative;
   }
   .imgconchuot {
     width: 395px;
     height: 375px;
     margin-left: -35px;
     margin-bottom: 17px;
+  }
+  .imgellip {
+    position: absolute;
+    width: 289px;
+    height:44px;
+  top:760px; left:50px;
   }
   .conchuottext1 {
     font-family: 'Lato', sans-serif;

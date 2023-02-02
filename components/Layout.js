@@ -22,7 +22,7 @@ export default function Layout({ description, children }) {
      
       <div className={styles.header}>
         <div className={styles.imageheader}>
-          <Image src={coco} width={97} height={36}></Image>
+          <Image src={coco} alt="" width={97} height={36}></Image>
         </div>
         <div className={styles.menuheader}>
           <div className={styles.li_header}>Marketplace</div>
@@ -36,8 +36,8 @@ export default function Layout({ description, children }) {
                 placeholder="Search"
               />
               <Image
-                className={styles.search}
-                src={search}
+                className={styles.search} 
+                src={search} alt=""
                 width={20}
                 height={20}
               ></Image>
@@ -47,14 +47,14 @@ export default function Layout({ description, children }) {
 
           <div className={styles.li_header}>
             <Image
-              src={shirts}
+              src={shirts} alt=""
               width={31}
               height={31}
               className={styles.menuavatar}
             ></Image>
           </div>
           <div className={styles.li_header}>
-            <Image src={Vector} width={29} height={24}></Image>
+            <Image src={Vector} alt="" width={29} height={24}></Image>
           </div>
         </div>
         <div className={styles.menuicon}>
@@ -72,7 +72,7 @@ export default function Layout({ description, children }) {
          <div className={styles.footer1_1}>
             <div className={styles.footer_title_coco}>
               <Image
-                src={coco}
+                src={coco} alt=""
                 width={113}
                 height={42}
               ></Image>
@@ -84,16 +84,16 @@ export default function Layout({ description, children }) {
             </p>
             <div className={styles.baicon} >
                 <div style={{width:"36px", height:"36px" , background: "#55ACEE" , borderRadius:"50%" ,display:"flex" , float: "left", alignItems:"center", justifyContent:"center" , marginRight:"14px"}}>           
-                 <Image src={conchim} width={21} height={17}></Image>
+                 <Image src={conchim} alt="" width={21} height={17}></Image>
 </div>
               
                 <Image
-                src={conech}
+                src={conech} alt=""
                 width={36}
                 height={36} style={{marginRight:"14px"}}
               ></Image>
                <Image
-                src={mayanh}
+                src={mayanh} alt=""
                 width={36}
                 height={36}
               ></Image>
